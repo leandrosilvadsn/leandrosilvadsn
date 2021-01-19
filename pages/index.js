@@ -11,7 +11,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://leandrosilvadsn.com">leandrosilvadsn.com!</a>
+          <a href="https://leandrosilvadsn.com"> &#013; leandrosilvadsn.com!</a>
         </h1>
 
         <p className={styles.description}>
@@ -31,7 +31,6 @@ export default function Home() {
 
         </div>
       </main>
-
       <footer className={styles.footer}>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
@@ -40,8 +39,6 @@ export default function Home() {
         >
           <h4>▲ Next.js</h4> 
           Developed by<h4>©Leandro Silva</h4> 
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
         </a>
       </footer>
     </div>
