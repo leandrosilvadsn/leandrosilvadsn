@@ -5,13 +5,18 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Leandro Silva</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
+
+      <div className="logo">
+          <img src="/PerfilCirculo.PNG" title="Leandro Silva" alt="Leandro Silva" class="" width="200" height="200"></img>
+        </div>
+
         <h1 className={styles.title}>
-          <a href="https://leandrosilvadsn.com"> &#013; leandrosilvadsn.com!</a>
+          <a href="https://leandrosilvadsn.com"> Leandro Silva</a>
         </h1>
 
         <p className={styles.description}>
@@ -38,7 +43,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h4>▲ Next.js</h4> 
-          Developed by<h4>©Leandro Silva</h4> 
+          <h4>leandro.silva.dsn</h4>@gmail.com 
         </a>
       </footer>
     </div>
