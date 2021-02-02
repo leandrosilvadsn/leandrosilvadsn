@@ -24,12 +24,16 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://github.com/leandrosilvadsn" target="_blank" className={styles.card}>
+          <a href="https://github.com/leandrosilvadsn" 
+          target="_blank" 
+          className={styles.card}>
             <h3>GitHub &rarr;</h3>
             <p>Where some of my projects and skills can be found, cloned and viewed.</p>
           </a>
 
-          <a href="https://www.linkedin.com/in/leandrosilvadsn" target="_blank" className={styles.card}>
+          <a href="https://www.linkedin.com/in/leandrosilvadsn" 
+          target="_blank" 
+          className={styles.card}>
             <h3>Linkedin &rarr;</h3>
             <p>Companies where I worked, technologies used and professional experience.</p>
           </a>
@@ -38,7 +42,7 @@ export default function Home() {
       </main>
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="mailto:leandro.silva.dsn@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
         >
